@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanitari Kosova - Pllaka & Sanitari</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-banner">
+        <div class="top-banner-left">
+            <span>📞 +383 44 123 456</span>
+            <span>Dërgesa falas për porosi mbi 100€</span>
+        </div>
+        <div class="top-banner-right">
+            <a href="#">Ndihmë</a>
+            <a href="#">Kontakti</a>
+        </div>
+    </div>
+
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">SK</div>
+                <div class="logo-text">
+                    Sanitari <span>Kosova</span>
+                </div>
+            </a>
+
+            <nav>
+                <div class="nav-item">
+                    <a href="#pllaka">Pllaka</a>
+                    <div class="dropdown">
+                        <a href="#pllaka-te-gjitha">Të gjitha Pllaka</a>
+                        <a href="#pllaka-dyshemeje">Pllaka Dyshemeje</a>
+                        <a href="#pllaka-muri">Pllaka Muri</a>
+                        <a href="#pllaka-jashtme">Pllaka Jashtme</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="#sanitari">Sanitari</a>
+                    <div class="dropdown">
+                        <a href="#sanitari-te-gjitha">Të gjitha Sanitari</a>
+                        <a href="#wc">WC</a>
+                        <a href="#lavaman">Lavaman</a>
+                        <a href="#kabina-dushi">Kabina Dushi</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="#rubineta">Rubineta</a>
+                    <div class="dropdown">
+                        <a href="#rubineta-te-gjitha">Të gjitha Rubineta</a>
+                        <a href="#rubineta-lavaman">Rubineta Lavamani</a>
+                        <a href="#rubineta-dushi">Rubineta Dushi</a>
+                        <a href="#rubineta-kuzhinë">Rubineta Kuzhinë</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="#mobilje">Mobilje Banjoje</a>
+                    <div class="dropdown">
+                        <a href="#mobilje-te-gjitha">Të gjitha Mobilje Banjoje</a>
+                        <a href="#pasqyra">Pasqyra</a>
+                        <a href="#dollabe">Dollabë</a>
+                        <a href="#rafte">Rafte</a>
+                    </div>
+                </div>
+                <a href="#ofertat" class="no-dropdown">Ofertat</a>
+            </nav>
+
+            <div class="header-actions">
+                <div class="search-bar">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" placeholder="Kërko produkte...">
+                </div>
+                <button class="icon-btn">❤️</button>
+                <button class="icon-btn">👤</button>
+                <button class="icon-btn">
+                    🛒
+                    <span class="cart-badge">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-slider">
+            <!-- Slide 1 - Pllaka Premium -->
+            <div class="hero-slide active">
+                <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=2000&q=80" alt="Pllaka Premium">
+                <div class="hero-content">
+                    <span class="hero-badge">Koleksioni i Ri 2024</span>
+                    <h1>Pllaka Premium</h1>
+                    <p>Zbuloni koleksionin tonë të ri të pllakave me cilësi të lartë për shtëpinë tuaj moderne.</p>
+                    <div class="hero-buttons">
+                        <a href="#products" class="btn-primary">Shiko Koleksionin</a>
+                        <a href="#calculator" class="btn-secondary">Më Shumë</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 - Sanitari Moderne -->
+            <div class="hero-slide">
+                <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=2000&q=80" alt="Sanitari Moderne">
+                <div class="hero-content">
+                    <span class="hero-badge">Dizajn Italian</span>
+                    <h1>Sanitari Moderne</h1>
+                    <p>Zgjidhje elegante për banjën tuaj me produkte nga markat më të njohura botërore.</p>
+                    <div class="hero-buttons">
+                        <a href="#products" class="btn-primary">Eksploro</a>
+                        <a href="#calculator" class="btn-secondary">Kalkulatori</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 - Ofertat e Javës -->
+            <div class="hero-slide">
+                <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=2000&q=80" alt="Ofertat e Javës">
+                <div class="hero-content">
+                    <span class="hero-badge">Deri në 40% Zbritje</span>
+                    <h1>Ofertat e Javës</h1>
+                    <p>Përfitoni nga ofertat tona speciale për produktet e zgjedhura.</p>
+                    <div class="hero-buttons">
+                        <a href="#products" class="btn-primary">Shiko Ofertat</a>
+                        <a href="#contact" class="btn-secondary">Na Kontaktoni</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="slider-arrow prev">‹</button>
+        <button class="slider-arrow next">›</button>
+        <div class="slider-controls">
+            <span class="slider-dot active"></span>
+            <span class="slider-dot"></span>
+            <span class="slider-dot"></span>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="features-container">
+            <div class="feature-item">
+                <div class="feature-icon">🚚</div>
+                <h3>Dërgesa Falas</h3>
+                <p>Për porosi mbi 100€ në të gjithë Kosovën dhe Shqipërinë</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">🛡️</div>
+                <h3>Garanci Cilësie</h3>
+                <p>Të gjitha produktet kanë garanci minimumi 2 vjet</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">📐</div>
+                <h3>Kalkulues M²</h3>
+                <p>Llogarit saktë e nevojshme të pllakave lehtësissht</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">🎧</div>
+                <h3>Mbështetje 24/7</h3>
+                <p>Ekipi ynë është i gatshëm t'ju ndihmojë në çdo kohë</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories">
+        <div class="section-header">
+            <div class="section-label">Kategoritë</div>
+            <h2 class="section-title">Eksploro koleksionet tona</h2>
+            <p class="section-description">Zgjidhni nga gama e gjerë e produkteve tona për çdo nevojë të shtëpisë suaj</p>
+        </div>
+
+        <div class="categories-grid">
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=800&q=80" alt="Pllaka">
+                <div class="category-info">
+                    <div class="category-count">120 produkte</div>
+                    <h3 class="category-name">Pllaka</h3>
+                    <p class="category-desc">Pllaka dyshemeje dhe muri me cilësi të lartë</p>
+                    <a href="#" class="category-link">Shiko të gjitha</a>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1594398901394-4e34939a4fd0?auto=format&fit=crop&w=800&q=80" alt="Sanitari">
+                <div class="category-info">
+                    <div class="category-count">85 produkte</div>
+                    <h3 class="category-name">Sanitari</h3>
+                    <p class="category-desc">WC, lavaman dhe kabina dushi moderne</p>
+                    <a href="#" class="category-link">Shiko të gjitha</a>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&w=800&q=80" alt="Rubineta">
+                <div class="category-info">
+                    <div class="category-count">64 produkte</div>
+                    <h3 class="category-name">Rubineta</h3>
+                    <p class="category-desc">Rubineta me dizajn elegant dhe të qëndrueshëm</p>
+                    <a href="#" class="category-link">Shiko të gjitha</a>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=800&q=80" alt="Mobilje">
+                <div class="category-info">
+                    <div class="category-count">45 produkte</div>
+                    <h3 class="category-name">Mobilje Banjoje</h3>
+                    <p class="category-desc">Pasqyra, dollabë dhe rafte funksionale</p>
+                    <a href="#" class="category-link">Shiko të gjitha</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <div class="products-container">
+            <div class="section-header">
+                <div class="section-label">Të zgjedhura</div>
+                <div class="products-header">
+                    <h2 class="section-title">Produktet më të shitura</h2>
+                    <a href="#" class="view-all-link">Shiko të gjitha produktet →</a>
+                </div>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=800&q=80" alt="Pllakë Porcelani">
+                        <span class="product-badge">-20%</span>
+                        <div class="product-actions">
+                            <button class="action-btn">❤️</button>
+                            <button class="action-btn">👁️</button>
+                        </div>
+                        <div class="product-overlay">Shto në shportë</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">PLLAKA</div>
+                        <h3 class="product-name">Pllakë Porcelani Gri 60x60</h3>
+                        <div class="product-price">
+                            <span class="price-current">19.99€</span>
+                            <span class="price-old">24.99€</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1594398901394-4e34939a4fd0?auto=format&fit=crop&w=800&q=80" alt="WC Modern">
+                        <span class="product-badge new">I RI</span>
+                        <div class="product-actions">
+                            <button class="action-btn">❤️</button>
+                            <button class="action-btn">👁️</button>
+                        </div>
+                        <div class="product-overlay">Shto në shportë</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">SANITARI</div>
+                        <h3 class="product-name">WC Modern me Bidet</h3>
+                        <div class="product-price">
+                            <span class="price-current">449.00€</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1604709177595-682faf4b2515?auto=format&fit=crop&w=800&q=80" alt="Lavaman">
+                        <span class="product-badge">-21%</span>
+                        <div class="product-actions">
+                            <button class="action-btn">❤️</button>
+                            <button class="action-btn">👁️</button>
+                        </div>
+                        <div class="product-overlay">Shto në shportë</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">SANITARI</div>
+                        <h3 class="product-name">Lavaman Oval Qeramik</h3>
+                        <div class="product-price">
+                            <span class="price-current">149.00€</span>
+                            <span class="price-old">189.00€</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&w=800&q=80" alt="Rubinet">
+                        <div class="product-actions">
+                            <button class="action-btn">❤️</button>
+                            <button class="action-btn">👁️</button>
+                        </div>
+                        <div class="product-overlay">Shto në shportë</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">RUBINETA</div>
+                        <h3 class="product-name">Rubinet Lavamani Krom</h3>
+                        <div class="product-price">
+                            <span class="price-current">89.00€</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=800&q=80" alt="Pasqyre">
+                        <span class="product-badge">-15%</span>
+                        <div class="product-actions">
+                            <button class="action-btn">❤️</button>
+                            <button class="action-btn">👁️</button>
+                        </div>
+                        <div class="product-overlay">Shto në shportë</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">MOBILJE</div>
+                        <h3 class="product-name">Pasqyre LED 80x60</h3>
+                        <div class="product-price">
+                            <span class="price-current">169.00€</span>
+                            <span class="price-old">199.00€</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=800&q=80" alt="Kabinë">
+                        <span class="product-badge new">I RI</span>
+                        <div class="product-actions">
+                            <button class="action-btn">❤️</button>
+                            <button class="action-btn">👁️</button>
+                        </div>
+                        <div class="product-overlay">Shto në shportë</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">SANITARI</div>
+                        <h3 class="product-name">Kabinë Dushi 90x90</h3>
+                        <div class="product-price">
+                            <span class="price-current">599.00€</span>
+                        </div>
+                        <div class="stock-status">Vetëm 12 copë në stok</div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=800&q=80" alt="Pllakë">
+                        <div class="product-actions">
+                            <button class="action-btn">❤️</button>
+                            <button class="action-btn">👁️</button>
+                        </div>
+                        <div class="product-overlay">Shto në shportë</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">PLLAKA</div>
+                        <h3 class="product-name">Pllakë Mermeri Natyral</h3>
+                        <div class="product-price">
+                            <span class="price-current">49.99€</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=800&q=80" alt="Set">
+                        <span class="product-badge">-25%</span>
+                        <div class="product-actions">
+                            <button class="action-btn">❤️</button>
+                            <button class="action-btn">👁️</button>
+                        </div>
+                        <div class="product-overlay">Shto në shportë</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">MOBILJE</div>
+                        <h3 class="product-name">Set Aksesorësh Banjoje</h3>
+                        <div class="product-price">
+                            <span class="price-current">59.00€</span>
+                            <span class="price-old">79.00€</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="calculator" id="calculator">
+        <div class="calculator-container">
+            <div class="calculator-content">
+                <div class="calculator-text">
+                    <span class="calculator-badge">Mjeti e dobishme</span>
+                    <h2>Kalkulues Sipërfaqeje</h2>
+                    <p>Fut dimensionet e dhomës dhe ne do të llogarisim automatikisht sa pllaka ju nevojiten. Kurse kohë dhe siguohu që nuk do të mbetësh pa material.</p>
+                    <button class="btn-primary">Përdor Kalkuluesin</button>
+                </div>
+                <div class="calculator-visual">
+                    <div class="calc-icon">📐</div>
+                    <div class="calc-result">15m²</div>
+                    <div class="calc-label">≈ 42 pllaka</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="testimonials-container">
+            <div class="section-header">
+                <div class="section-label">Vlerësime</div>
+                <h2 class="section-title">Çfarë thonë klientët tanë</h2>
+                <p class="section-description">Lexoni përvojat e klientëve që na kanë besuar për projektet e tyre</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">"Shërbim i shkëlqyer! Produktet arritën brenda 2 ditësh dhe cilësia ishte pikërisht ajo që pritsja. Do të blej përsëri pa dyshim."</p>
+                    <div class="rating">★★★★★</div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AK</div>
+                        <div class="author-info">
+                            <h4>Arben Krasniqi</h4>
+                            <p>Prishtinë</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">"Pllakat e zgjedhura ishin perfekte për renovimin e banjës sonë. Ekipi i shitjeve na ndihmoi shumë me zgjedhjen e ngjyrave."</p>
+                    <div class="rating">★★★★★</div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">LB</div>
+                        <div class="author-info">
+                            <h4>Lindita Berisha</h4>
+                            <p>Prizren</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">"Çmimet janë konkuruese dhe kalkuluesi i sipërfaqes më kurseu shumë kohë. Rekomandohet pa dyshim!"</p>
+                    <div class="rating">★★★★★</div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">BH</div>
+                        <div class="author-info">
+                            <h4>Besart Hoxha</h4>
+                            <p>Ferizaj</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">"Kam blerë të gjitha sanitaritë nga këtu. Cilësia dhe dizajni janë të jashtëzakonshëm. Faleminderit për shërbimin e mrekullueshëm!"</p>
+                    <div class="rating">★★★★★</div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">VG</div>
+                        <div class="author-info">
+                            <h4>Vjora Gashi</h4>
+                            <p>Gjakovë</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="newsletter-container">
+            <div class="newsletter-text">
+                <h3>Abonohu për ofertat ekskluzive</h3>
+                <p>Merr zbritje speciale dhe lajme për produkte të reja</p>
+            </div>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Email-i juaj" required>
+                <button type="submit" class="btn-primary">Abonohu</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="footer-logo-icon">SK</div>
+                        <div>
+                            Sanitari<br>
+                            <span style="color: var(--primary-orange);">KOSOVA</span>
+                        </div>
+                    </div>
+                    <p>Furnizuesi juaj i besuar për sanitari dhe pllaka me cilësi të lartë në Kosovë dhe Shqipëri.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">f</a>
+                        <a href="#" class="social-link">📷</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Lidhje të shpejta</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Rreth nesh</a></li>
+                        <li><a href="#">Pllaka</a></li>
+                        <li><a href="#">Sanitari</a></li>
+                        <li><a href="#">Ofertat speciale</a></li>
+                        <li><a href="#">Kalkulues sipërfaqeje</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Shërbimi ndaj klientit</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Qendra e ndihmës</a></li>
+                        <li><a href="#">Informata dërgese</a></li>
+                        <li><a href="#">Kthimet dhe garancitë</a></li>
+                        <li><a href="#">Kushtet e përdorimit</a></li>
+                        <li><a href="#">Politika e privatësisë</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Na kontaktoni</h4>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <span>Rruga "Adem Jashari" nr. 123<br>10000 Prishtinë, Kosovë</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <span>+383 44 123 456</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c4adaaa2ab84b7a5aaadb0a5b6adafabb7abb2a5eaa7aba9">[email&#160;protected]</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2024 Sanitari Kosova. Të gjitha të drejtat e rezervuara.</p>
+                <div class="payment-methods">
+                    <div class="payment-icon"></div>
+                    <div class="payment-icon"></div>
+                    <div class="payment-icon"></div>
